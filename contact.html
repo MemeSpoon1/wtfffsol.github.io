@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <!-- Icon  -->
+
+        <link rel="stylesheet" href="styles.css"> 
+        <!-- Link to external CSS file -->
+        <style>
+            /* local stylization */
+            h1 {
+                margin-bottom: 40px;
+            }
+            div .p1 {
+                font-size: 30px;
+                margin-top: 10px;
+            }
+            div .p2 {
+                margin-top: -40px;
+            }
+            div .i1 {
+                height: 80px;
+                width: 40vw;
+            }
+            div .b1 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            div a {
+                display: inline-block;
+                margin-top: -10px;
+            }
+        </style>
+    <body>
+        <h1>Contact</h1>
+        <div class="my-box1">
+            <p class="p1">Contact Me:</p>
+            <br>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="28bd1ecb-bafd-4e66-91d6-192cda85a0f0">
+                <p class="p2">Your Email:</p>
+                <input type="email" id="email" name="email" placeholder="Your email..">
+                <p>Text:</p>
+                <input class="i1" type="text" id="text" name="text" placeholder="Type your message..">
+                <br>
+                <button class="b1" type="submit">Submit</button>
+            </form>
+            <br>
+            <a href="index.html">Home</a>
+        </div>
+    </body>
+</html>
